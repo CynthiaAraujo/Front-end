@@ -1,4 +1,5 @@
 import { FiMail, FiLock} from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 import { Container, Form, Background} from "./styles";
 import { Input } from "../../components/Input";
@@ -30,7 +31,7 @@ export function SingIn() {
       title="Enviar">
       </Button>
 
-      <a href="https://www.rocketseat.com.br/">Criar Conta</a>
+      <Link to="/register">Criar Conta</Link>
 
       </Form>
 
