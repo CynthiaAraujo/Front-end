@@ -6,7 +6,8 @@ import theme from './styles/theme';
 // import { Home } from './pages/Home';
 // import { SingIn } from './pages/SingIn';
 // import { SingUp } from './pages/SingUp';
-import { Profile } from './pages/Profile';
+// import { Profile } from './pages/Profile';
+import { New } from './pages/New';
 
 import GlobalStyle from './styles/global'
 
@@ -15,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Profile />
+      <New />
     </ThemeProvider>
   </React.StrictMode>,
 )
